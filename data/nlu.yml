@@ -1,92 +1,155 @@
 version: "2.0"
 
 nlu:
-- intent: greet
-  examples: |
-    - hey
-    - hello
-    - hi
-    - hello there
-    - good morning
-    - good evening
-    - moin
-    - hey there
-    - let's go
-    - hey dude
-    - goodmorning
-    - goodevening
-    - good afternoon
+  - intent: user_provides_username
+    examples: |
+      - Martha Tate
+      - Parker Tate
+      - Maxwell Thorpe
+      - Ethan Neville
+      - Leanne Jennson
+      - Kassandra Utterson
+      - Barney Wood
+      - Leah Jennson
+      - Freya Vinton
+      - Lauren Robinson
+      - Brooklyn Bayliss
+      - Jayden Warren
+      - Shelby Roth
+      - Nick Potts
+      - Aiden Holmes
+      - Ron Vaughn
+      - Dorothy Crawford
+      - Gil Carter
+      - Mark Fowler
+      - Davina Farrant
+      - Jules Khan
+      - Lexi Hill
+      - Carina Freeburn
+      - Judith Donnelly
 
-- intent: goodbye
-  examples: |
-    - good afternoon
-    - cu
-    - good by
-    - cee you later
-    - good night
-    - bye
-    - goodbye
-    - have a nice day
-    - see you around
-    - bye bye
-    - see you later
+  - intent: user_provides_password
+    examples: |
+      - y]Wv)!Z2
+      - g*B7a2&F
+      - 72D$w+cj
+      - bkC)rFh2
+      - SpDbr2z-
+      - 4*/3&]Lv
+      - lkVyqwP
+      - ^$f2x3Sk
+      - E-+xYC3&
+      - 8@X3u?}=
+      - B5{+b}A^
+      - &d9LuTUK
+      - 5NhRSzP{
+      - XvY.-86x
+      - =8eAV4Sr
+      - /]w3gW$-
+      - .R64d=>h
+      - QC4sTU6]
+      - ]Tf6_=Yz
+      - S^85/k$+
+      - T-.^cU78
+      - wpCB].3L
+      - kLM7)b8D
+      - W9br_}Vq
 
-- intent: affirm
-  examples: |
-    - yes
-    - y
-    - indeed
-    - of course
-    - that sounds good
-    - correct
+  - intent: greet
+    examples: |
+      - hey
+      - hello
+      - hi
+      - hello there
+      - good morning
+      - good evening
+      - moin
+      - hey there
+      - let's go
+      - hey dude
+      - goodmorning
+      - goodevening
+      - good afternoon
 
-- intent: deny
-  examples: |
-    - no
-    - n
-    - never
-    - I don't think so
-    - don't like that
-    - no way
-    - not really
+  - intent: goodbye
+    examples: |
+      - good afternoon
+      - cu
+      - good by
+      - cee you later
+      - good night
+      - bye
+      - goodbye
+      - have a nice day
+      - see you around
+      - bye bye
+      - see you later
 
-- intent: mood_great
-  examples: |
-    - perfect
-    - great
-    - amazing
-    - feeling like a king
-    - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
+  - intent: affirm
+    examples: |
+      - yes
+      - y
+      - indeed
+      - of course
+      - that sounds good
+      - correct
+      - that works
+      - okay I'll be available
+      - seems good
+      - sure
 
-- intent: mood_unhappy
-  examples: |
-    - my day was horrible
-    - I am sad
-    - I don't feel very well
-    - I am disappointed
-    - super sad
-    - I'm so sad
-    - sad
-    - very sad
-    - unhappy
-    - not good
-    - not very good
-    - extremly sad
-    - so saad
-    - so sad
+  - intent: deny
+    examples: |
+      - no
+      - not convenient for me
+      - i wont be available
 
-- intent: bot_challenge
-  examples: |
-    - are you a bot?
-    - are you a human?
-    - am I talking to a bot?
-    - am I talking to a human?
+  - intent: mood_great
+    examples: |
+      - perfect
+      - great
+      - amazing
+      - feeling like a king
+      - wonderful
+      - I am feeling very good
+      - I am great
+      - I am amazing
+      - I am going to save the world
+      - super stoked
+      - extremely good
+      - so so perfect
+      - so good
+      - so perfect
+
+  - intent: mood_unhappy
+    examples: |
+      - my day was horrible
+      - I am sad
+      - I don't feel very well
+      - I am disappointed
+      - super sad
+      - I'm so sad
+      - sad
+      - very sad
+      - unhappy
+      - not good
+      - not very good
+      - extremly sad
+      - so saad
+      - so sad
+
+  - intent: bot_challenge
+    examples: |
+      - are you a bot?
+      - are you a human?
+      - am I talking to a bot?
+      - am I talking to a human?
+
+  - intent: meeting_upates
+    examples: |
+      - are there any meetings scheduled?
+      - can you give update me about interviews scheduled?
+      - any planned interviews?
+      - whats the update about interview?
+      - can you update me about interviews?
+      - tell me about upcoming interviews
